@@ -56,6 +56,36 @@
 
             </ol>
         </div>
+        <table>
+            <tr>
+                <th>Petuxos</th>
+            </tr>
+            <tr>
+                <th rowspan="3">Raças</th>
+                <td> Pinscher</td>
+            </tr>
+            <tr>
+                <td>Pastor Alemão</td>
+            </tr>
+            <tr>
+                <td>Pug</td>
+            </tr>
+            
+        </table>
+        <form id="myForm" action="cadastro.php" method="GET">
+            <p>Tamanho do Seu Pet:</p>
+            <input type="radio" id="pequeno" name="porte" value="pequeno">
+            <label for="pequeno">Pequeno</label>
+            <input type="radio" id="grande" name="porte" value="grande">
+            <label for="grande">Grande</label>  
+        </form>
+        <form id="myForm" action="cadastro.php" method="GET">
+            <p>Padrão de Cor da Pelagem:</p>
+            <input type="checkbox" id="unica" name="cor" value="unica">
+            <label for="pequeno">Cor única</label>
+            <input type="checkbox" id="malhadinho" name="cor" value="malhadinho">
+            <label for="grande">Malhadinho</label>  
+        </form>
 
     </main>
     <footer style="background-color:tomato ;">
